@@ -3,6 +3,7 @@ Perform a CRUD operation in nodejs
 
 app.post('/crud', crud.create);
 This is the route where you create records to be saved in the database
+the required fields are: name, mail and country.
 
 app.get('/crud', crud.findAll);
 This route queries all the records available in the database
