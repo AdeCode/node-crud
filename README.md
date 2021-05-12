@@ -16,3 +16,5 @@ This route let you update a particular record in the database by supplying the i
 
 app.delete('/crud/:crudId', crud.delete);
 This is the route where a record can be removed from the database by supplying the Id of such record.
+
+App link: https://morning-wave-69615.herokuapp.com/
